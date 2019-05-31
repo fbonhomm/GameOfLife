@@ -12,7 +12,7 @@ OPT = -lSDL2-2.0
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(OPT) $(INC) $(SRC) -o $(NAME)
+	$(CC) $(INC) $(SRC) -o $(NAME) $(OPT)
 
 clean:
 	/bin/rm -f $(NAME)
